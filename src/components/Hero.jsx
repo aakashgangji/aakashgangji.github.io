@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="text-4xl font-bold mb-2">Aakash Gangji</h1>
         <p className="text-xl mb-2">Currently a student at Arizona State University studying Information Technology</p>
         <p className="max-w-xl mx-auto">
-          I am currently looking for full time Cloud Role in the States of America.
+        I’m actively seeking exciting full-time opportunities in Software Engineering across the United States.Let’s build something extraordinary together!
         </p>
       </div>
     </section>
