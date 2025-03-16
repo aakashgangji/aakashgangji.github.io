@@ -1,0 +1,33 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black Square Background -->
+  <rect width="300" height="300" fill="black"/>
+  
+  <!-- Letter A -->
+<path 
+    d="M80 220L120 80L160 220M95 160H145" 
+    stroke="white" 
+    stroke-width="12" 
+    fill="none"
+  />
+  
+ <path
+   d="M200 80
+       L200 180
+       C200 200 180 220 160 220
+       C140 220 120 200 120 180
+       C120 160 140 140 160 140
+       C180 140 200 160 200 180"
+    stroke="white"
+    stroke-width="8"
+    fill="none"
+  />
+    <!-- Note head -->
+  <ellipse 
+    cx="200" 
+    cy="80" 
+    rx="15" 
+    ry="10" 
+    transform="rotate(-20 200 80)"
+    fill="white"
+  />
+</svg>

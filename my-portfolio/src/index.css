@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-space text-white;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-1 py-1 rounded-md bg-red-500 text-dark-space font-bold hover:bg-red-600 transition-colors duration-300;
+  }
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
