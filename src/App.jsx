@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Music from './components/Music';
+import './App.css';
 
 const AppContent = () => {
   const location = useLocation();
@@ -19,12 +20,11 @@ const AppContent = () => {
             <>
               <Hero />
               <Projects />
-              <Contact/>
+              <Contact />
             </>
           } />
           <Route path="/Music" element={<Music />} />
         </Routes>
-       
       </main>
     </div>
   );
