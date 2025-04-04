@@ -10,11 +10,9 @@
 
 @layer components {
   .btn {
-    @apply px-1 py-1 rounded-md bg-red-500 text-dark-space font-bold hover:bg-red-600 transition-colors duration-300;
+    @apply px-3 py-1 md:px-4 md:py-2 rounded-md bg-red-500 text-white font-bold hover:bg-red-600 transition-colors duration-300 text-sm md:text-base;
   }
 }
-
-
 
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -23,4 +21,35 @@
 
 .fade-in {
   animation: fadeIn 1s ease-in-out;
+}
+
+/* Responsive iframe container */
+.aspect-w-16 {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.aspect-h-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+  .music-portfolio {
+    padding: 1rem;
+  }
+  
+  .poster-container {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .poster-image, .cd-image {
+    width: 80px;
+    height: 80px;
+  }
 }
